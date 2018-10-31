@@ -8,3 +8,6 @@ swarm:
         connection-url: jdbc:mysql://${env.MYSQL_HOST:mysql}:3306/inventory?useSSL=false
         user-name: mysqluser
         password: mysqlpw
+
+
+hibernate.dialect: mysql
